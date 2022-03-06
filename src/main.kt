@@ -7,7 +7,7 @@ fun main() {
     namesofcities(arrayOf("harare", "mumbai", "dodoma","akarta"))
 
     //question3
-    findIndex()
+    findOut()
 
 //question4
     identities(arrayOf("James", "Mary", "Carol"))
@@ -28,7 +28,7 @@ cities.forEach { capitalcity ->
 }
 
 //question3
-fun findIndex() {
+fun findOut() {
     var numbers = arrayOf(32, 17,4,213,78,43,90,31,3,73,11,158,62)
     var numb = arrayOf(numbers[1], numbers[4])
     println(numb.sum())
